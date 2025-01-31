@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Aref+Ruqaa:wght@400;700&family=Oswald:wght@200..700&display=swap');
-:root{
+@import url("https://fonts.googleapis.com/css2?family=Aref+Ruqaa:wght@400;700&family=Cairo:wght@200..1000&family=Oswald:wght@200..700&display=swap");
+:root {
   --iti-color: #bf272d;
 }
 
@@ -9,24 +9,23 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
-
 body {
-    background: linear-gradient(-45deg, #deee86, #c5ebb3, #23a6d5, #23d5ab);
-    background-size: 400% 400%;
-    animation: gradient 15s ease infinite;
+  background: linear-gradient(-45deg, #deee86, #c5ebb3, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
 }
 
 @keyframes gradient {
-    0% {
-        background-position: 0% 50%;
-    }
-    50% {
-        background-position: 100% 50%;
-    }
-    100% {
-        background-position: 0% 50%;
-    }
+  0% {
+    background-position: 0% 50%;
   }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
 img {
   max-width: 100%;
 }
@@ -45,10 +44,15 @@ header {
   display: flex;
   justify-content: space-between;
 }
-h1, h2, p{
+h1,
+h2,
+p {
   text-align: center;
 }
-h1{
+p {
+  font-family: "Cairo", serif;
+}
+h1 {
   color: var(--iti-color);
   font-size: 6rem;
   font-family: "Aref Ruqaa", serif;
@@ -56,7 +60,7 @@ h1{
   font-style: normal;
   margin-bottom: 2rem;
 }
-p{
+p {
   font-size: 1.5rem;
 }
 .iti {
@@ -76,7 +80,7 @@ main {
   position: absolute;
   bottom: 0rem;
 }
-.button {
+/* .button {
   text-align: center;
   margin: 3rem;
   padding: 1rem;
@@ -85,13 +89,13 @@ main {
   border-radius: 20rem;
   color: white;
   box-shadow: 5px 5px 10px rgba(0,0, 0, 0.5);
-}
-.button:hover {
+} */
+/* .button:hover {
   background-color: aliceblue;
   border:1px solid var(--iti-color);
   cursor: pointer;
   transition:all 0.3s ease-in-out;
- }
+ } */
 
 a.button {
   padding: 1.5rem;
@@ -102,26 +106,23 @@ a.button {
   cursor: pointer;
 }
 
-
 a:hover {
   color: brown;
 }
 
 @media only screen and (max-width: 600px) {
-  
-  html{
+  html {
     font-size: 13px;
   }
-  .buttons{
+  .buttons {
     width: 90%;
     bottom: 2rem;
-
   }
-  .button{
+  .button {
     padding: 1rem;
     margin: 1rem;
   }
-  .container{
+  .container {
     width: 90%;
   }
 }
