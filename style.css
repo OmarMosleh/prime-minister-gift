@@ -97,12 +97,8 @@ main {
   transition:all 0.3s ease-in-out;
  } */
 
-
 a.button {
-  max-width: 13rem;
-  /* padding: 0.7rem; */
-  border-radius: 1rem;
-  margin: 0.7rem;
+  padding: 1.5rem;
   display: block;
   text-decoration: none;
   font-size: large;
@@ -114,7 +110,6 @@ a.button {
 height: 100%;
 }
 
-
 a:hover {
   color: brown;
 }
@@ -125,10 +120,11 @@ a:hover {
   }
   .buttons {
     width: 90%;
-    bottom: .5rem;
+    bottom: 2rem;
   }
   .button {
-    margin: 0.2rem;
+    padding: 1rem;
+    margin: 1rem;
   }
   .container {
     width: 90%;
