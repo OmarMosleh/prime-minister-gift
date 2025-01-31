@@ -98,17 +98,12 @@ main {
  } */
 
 a.button {
-  /* padding: 1.5rem; */
-  max-width: 13rem;
-  padding: 0.7rem;
+  padding: 1.5rem;
   display: block;
   text-decoration: none;
   font-size: large;
   font-weight: 700;
-  cursor: pointer; 
-}
-.link-img{
-height: 100%;
+  cursor: pointer;
 }
 
 a:hover {
@@ -121,10 +116,11 @@ a:hover {
   }
   .buttons {
     width: 90%;
-    bottom: .5rem;
+    bottom: 2rem;
   }
   .button {
-    margin: 0.2rem;
+    padding: 1rem;
+    margin: 1rem;
   }
   .container {
     width: 90%;
