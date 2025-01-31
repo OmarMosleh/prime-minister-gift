@@ -105,7 +105,9 @@ a.button {
   font-weight: 700;
   cursor: pointer;
 }
-
+.link-img{
+  height: 100%;
+}
 a:hover {
   color: brown;
 }
@@ -119,7 +121,7 @@ a:hover {
     bottom: 2rem;
   }
   .button {
-    padding: 1rem;
+    padding: 0.5rem;
     margin: 1rem;
   }
   .container {
